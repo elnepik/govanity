@@ -30,7 +30,7 @@ func main() {
 	beginTime := time.Now()
 
 	var prefix string
-	flag.StringVar(&prefix, "prefix", "123", "prefix you want for your vanity address")
+	flag.StringVar(&prefix, "prefix", "1sha", "prefix you want for your vanity address")
 	flag.Parse()
 
 	fmt.Printf("Searching for prefix \"%s\"\n", prefix)
